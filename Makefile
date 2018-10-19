@@ -11,7 +11,7 @@ MACOSX_VERSION = 10.4
 CMOD = zlib.so
 OBJS = lua_zlib.o
 
-LIBS = -lz -llua -lm
+LIBS = -lz -lm
 WARN = -Wall -pedantic
 
 BSD_CFLAGS  = -O2 -fPIC $(WARN) $(INCDIR) $(DEFS)
